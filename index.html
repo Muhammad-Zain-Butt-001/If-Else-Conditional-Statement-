@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IF-ELSE CONDITION</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container-1">
+        <!-- voting -->
+        <div class="voting">
+            <div class="voting-header">
+                <h1>Age Checker</h1>
+            </div>
+            <div class="voting-body">
+                <label class="voting-subtittle" for="age">Enter your age to check your eligibility.</label>
+                <input  type="number" id="age" name="age" placeholder="Enter your age">
+                <button class="voting-button" onclick="checkEligibility()">Check Eligibility</button>
+                <p id="result"></p>
+            </div>
+        </div>
+        <!-- even odd -->
+        <div class="even-odd">
+            <div class="even-odd-heading">
+                <h1>Even or Odd Checker</h1>
+            </div>
+            <div class="even-odd-body">
+                <label class="even-odd-subtittle" for="number">Enter a number to check if it's even or odd.</label>
+                <input type="number" id="number" name="number" placeholder="Enter a number">
+                <button class="even-odd-button" onclick="checkEvenOdd()">Check Even/Odd</button>
+                <p id="evenOddResult"></p>
+            </div>
+        </div>
+    </div>
+    
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
