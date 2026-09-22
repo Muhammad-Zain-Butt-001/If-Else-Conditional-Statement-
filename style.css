@@ -173,3 +173,165 @@ body{
     border-radius: 0.5rem;
     border: 1px solid rgb(38, 38, 38);
  }
+
+
+ 
+/*===================================
+        grade calculate system
+ =================================*/
+
+    .grade-calculate{
+        width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    justify-content: center;
+    padding: 1rem;
+    background-color: rgb(246, 244, 242);
+    border-radius: 1rem;
+    }
+   .grade-calculate-heading{
+    text-align: center;
+    font-size: 1.6rem;
+    font-weight: bold;
+   }
+    .grade-calculate-body{
+     display: flex;
+     flex-direction: column;
+     gap: 1rem;
+    }
+    .grade-calculate-subtitle{
+        font-size: 1.2rem;
+        font-weight: bold;
+    }
+    #score{
+        padding: 0.5rem;
+        border-radius: 0.5rem;
+        border: 1px solid rgb(38, 38, 38);
+    }
+    .grade-calculate-button{
+        padding: 0.5rem;
+        border-radius: 0.5rem;
+        border: 1px solid rgb(38, 38, 38);
+        background-color: rgb(38, 38, 38);
+        color: white;
+        font-weight: bold;
+        font-size: 1rem;
+    }
+    #gradeResult{
+        text-align: center;
+        font-size: 1.2rem;
+        font-weight: bold;
+        padding: 1rem;
+        border-radius: 0.5rem;
+        border: 1px solid rgb(38, 38, 38);
+    }
+    
+  /*===================================
+            container-3 
+ =================================*/
+
+.container-3{
+    display: flex;
+    justify-items: center;
+    margin-top: 6rem;
+    margin-inline: 6rem;
+    gap: 6rem;
+    flex-direction: row;
+}
+.leap-year{
+      width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    justify-content: center;
+    padding: 1rem;
+    background-color: rgb(246, 244, 242);
+    border-radius: 1rem;
+}
+.leap-year-heading{
+ text-align: center;
+    font-size: 1.6rem;
+    font-weight: bold;
+}
+.leap-year-body{
+     display: flex;
+     flex-direction: column;
+     gap: 1rem;
+}
+.leap-year-subtitle{
+     font-size: 1.2rem;
+    font-weight: bold;
+}
+#year{
+      padding: 0.5rem;
+        border-radius: 0.5rem;
+        border: 1px solid rgb(38, 38, 38); 
+}
+.leap-year-button{
+     padding: 0.5rem;
+        border-radius: 0.5rem;
+        border: 1px solid rgb(38, 38, 38);
+        background-color: rgb(38, 38, 38);
+        color: white;
+        font-weight: bold;
+        font-size: 1rem;
+}
+#leapYearResult{
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    border: 1px solid rgb(38, 38, 38);
+
+}
+
+/* fail passing system */
+
+.fail-passing{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    justify-content: center;
+    padding: 1rem;
+    background-color: rgb(246, 244, 242);
+    border-radius: 1rem;
+}
+.fail-passing-heading{
+    text-align: center;
+    font-size: 1.6rem;
+    font-weight: bold;
+}
+.fail-passing-body{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}   
+.fail-passing-subtitle{
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+#marks{
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    border: 1px solid rgb(38, 38, 38);
+}
+.fail-passing-button{
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    border: 1px solid rgb(38, 38, 38);
+    background-color: rgb(38, 38, 38);
+    color: white;
+    font-weight: bold;
+    font-size: 1rem;
+}
+#failPassResult{
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    border: 1px solid rgb(38, 38, 38);
+}
