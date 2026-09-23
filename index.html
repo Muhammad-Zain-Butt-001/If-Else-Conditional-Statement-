@@ -33,8 +33,7 @@
                 <p id="evenOddResult"></p>
             </div>
         </div>
-    </div>
-    
+    </div> 
  <!-- container---2 -->
 <div class="container-2">
     <!-- positve negative number checking -->
@@ -48,7 +47,6 @@
             <button class="pos-neg-button" onclick="numberChecking()"> Check Number</button>
             <p  id="pos-neg-result"></p>
         </div>
-
     </div>
     <!-- grade calculate system -->
     <div class="grade-calculate">
@@ -89,6 +87,136 @@
             <p id="failPassResult"></p>
         </div>
     </div>
+</div>
+ <!-- container---4 -->
+<div class="container-4">
+    <!-- largest number -->
+    <div class="largest-number">
+        <div class="largest-number-heading">
+            <h1>Largest Number Checker</h1>
+        </div>
+        <div class="largest-number-body">
+            <label class="largest-number-subtitle" for="num1">Enter the first number:</label>
+            <input type="number" id="num1" name="num1" placeholder="Enter first number">
+            <label class="largest-number-subtitle" for="num2">Enter the second number:</label>
+            <input type="number" id="num2" name="num2" placeholder="Enter second number">
+            <label class="largest-number-subtitle" for="num3">Enter the third number:</label>
+            <input type="number" id="num3" name="num3" placeholder="Enter third number">
+            <button class="largest-number-button" onclick="checkLargestNumber()">Check Largest Number</button>
+            <p id="largestNumberResult"></p>
+        </div>
+    </div>
+    <!-- login validation -->
+    <div class="login-validation">
+        <div class="login-validation-heading">
+            <h1>Login Validation</h1>
+        </div>
+        <div class="login-validation-body">
+            <label class="login-validation-subtitle" for="username">Enter your username:</label>
+            <input type="text" id="username" name="username" placeholder="Enter username">
+            <label class="login-validation-subtitle" for="password">Enter your password:</label>
+            <input type="password" id="password" name="password" placeholder="Enter password">
+            <button class="login-validation-button" onclick="validateLogin()">Validate Login</button>
+            <p id="loginValidationResult"></p>
+        </div>
+    </div>
+</div>
+<!-- container-5 -->
+<div class="container-5">
+    <!-- vowel consonant -->
+    <div class="vowel-consonant">
+        <div class="vowel-consonant-heading">
+            <h1>Vowel or Consonant Checker</h1>
+        </div>
+        <div class="vowel-consonant-body">
+            <label class="vowel-consonant-subtitle" for="letter">Enter a letter to check if it's a vowel or consonant.</label>
+            <input type="text" id="letter" name="letter" maxlength="1" placeholder="Enter a letter">
+            <button class="vowel-consonant-button" onclick="checkVowelConsonant()">Check Vowel/Consonant</button>
+            <p id="vowelConsonantResult"></p>
+        </div>
+    </div>
+    <!-- day of the week -->
+    <div class="day-of-week">
+        <div class="day-of-week-heading">
+            <h1>Day of the Week Checker</h1>
+        </div>
+        <div class="day-of-week-body">
+            <label class="day-of-week-subtitle" for="dayNumber">Enter a number (1-7) to check the corresponding day of the week.</label>
+            <input type="number" id="dayNumber" name="dayNumber" min="1" max="7" placeholder="Enter a number (1-7)">
+            <button class="day-of-week-button" onclick="checkDayOfWeek()">Check Day</button>
+            <p id="dayOfWeekResult"></p>
+        </div>
+    </div>
+</div>
+<!-- container-6 -->
+<div class="container-6">
+    <!-- temperature checking -->
+    <div class="temperature-checking">   
+        <div class="temperature-checking-heading">
+            <h1>Temperature Checking</h1>
+        </div>
+        <div class="temprature-checking-body">
+            <label class="temprature-checking-subtitle" for="temprature">Enter the temprature to check the weather condition.</label>
+            <input type="number" id="temprature" name="temprature" placeholder="Enter temprature">
+            <button class="temprature-checking-button" onclick="checkTemprature()">Check Temprature</button>
+            <p id="tempratureResult"></p>
+        </div>
+    </div>
+    <!-- age category checker -->
+    <div class="age-category-checker">
+        <div class="age-category-checker-heading">
+            <h1>Age Category Checker</h1>
+        </div>
+        <div class="age-category-checker-body">
+            <label class="age-category-checker-subtitle" for="agee">Enter your age to check the category.</label>
+            <input type="number" id="agee" name="age" min="0" placeholder="Enter your age">
+            <button class="age-category-checker-button" onclick="checkAgeCategory()">Check Age Category</button>
+            <p id="ageCategoryResult"></p>
+        </div>
+    </div>
+</div>
+<!--- container 7--->
+<div class="container-7">
+    <!-- giving doscount -->
+     <div class="shopping-card">
+        <div class="shopping-card-heading">
+            <h1>Shopping Price Checker</h1>
+        </div>
+        <div class="shopping-card-body">
+            <label class="shopping-card-subtittle" for="shopping"> Enter your shopping price to check the category.</label>
+            <input type="number" id="shopping" placeholder="Enter your shopping price">
+            <button class="shopping-card-button" onclick="checkshoppinglist()">check it</button>
+            <p id="shoppingCardResult"></p>
+        </div>
+     </div>
+     <!-- Password Strength Checker -->
+    <div class="password-strength">
+        <div class="password-strength-heading">
+            <h1>Password Strength Checker</h1>
+        </div>
+        <div class="password-strength-body">
+            <label class="password-strength-subtitle" for="passWord">Enter your password to check its strength.</label>
+            <input type="text" id="passWord"placeholder="Enter your password">
+            <button class="password-strength-button"    onclick="checkPasswordStrength()">Check Password</button>
+            <p id="passwordStrengthResult"></p>
+        </div>
+    </div>
+</div>
+<div class="container-8">
+    <!-- Simple Calculator -->
+<div class="calculator">
+    <div class="calculator-heading">
+        <h1>Simple Calculator</h1>
+    </div>
+    <div class="calculator-body">
+        <label class="calculator-subtitle" for="firstNumber"> Enter two numbers and select an operation.</label>
+        <input type="number"id="firstNumber" placeholder="Enter first number">
+        <input type="number"id="secondNumber"placeholder="Enter second number">
+        <input type="text"id="operator"placeholder="Enter +, -, * or /">
+        <button class="calculator-button"onclick="calculateNumbers()">Calculate</button>
+        <p id="calculatorResult"></p>
+    </div>
+</div>
 </div>
     <script src="script.js"></script>
 </body>
